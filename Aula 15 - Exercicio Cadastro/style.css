@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E3F2FD;
+    color: #424242;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    padding-top: 50px;
+    text-align: center;
+}
+
+section{
+    display: grid;
+    row-gap: 10px;
+    background-color: white;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.114);
+    margin: 20px;
+    padding: 25px;
+}
+
+section #input-sexo{
+    margin-bottom: 10px;
+}
+
+section #button{
+    width: 150px;
+    height: 35px;
+    background-color: #64B5F6;
+    margin-top: 10px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* section #text{
+    text-align: center;
+} */
+
+section #img{
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
