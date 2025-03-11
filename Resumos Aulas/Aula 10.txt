@@ -1,0 +1,29 @@
+Aula 10 - Eventos DOM
+
+Respostas Aula 09:
+
+1) Document Object Model
+2) Sei
+3) Parent são os elementos 'pais' da árvore e Child, seus 'filhos'. Exemplo: document é Parent de html, que é Child de document
+4) Por ID, seletor, name, class, e por tag (marca)
+
+
+Eventos DOM:
+- Os eventos mais comuns são os de mouse:
+	-> mouseenter  --->  mouse entrou na área;
+	-> mouseout    --->  mouse saiu da área;
+	-> mousemove   --->  mouse se mexeu dentro da área;
+	-> mousedown   --->  mouse pressionado dentro da área;
+	-> mouseup     --->  mouse após ser soltado dentro da área;
+	-> click       --->  movimento de click;
+	
+- Mais eventos em: Events Reference da MDN -> https://developer.mozilla.org/en-US/docs/Web/Events
+
+
+Funções:
+- Blocos de códigos que acontecem normalmente quando determinada ação ocorre;
+
+	function ação(parâmetro){
+
+		}
+

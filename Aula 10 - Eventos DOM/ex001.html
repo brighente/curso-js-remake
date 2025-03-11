@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        div#area{
+            font: normal 16pt calibri;
+            background-color: blueviolet;
+            color: white;
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> <!-- Disparar eventos dentro do HTML -->
+        Interaja...
+    </div>
+
+    <script>
+        var area = document.getElementById('area');
+
+        // Disparar os eventos dentro do JavaScript
+        area.addEventListener('click', clicar);
+        area.addEventListener('mouseenter', entrar);
+        area.addEventListener('mouseout', sair);
+        
+
+        function clicar(){
+            area.innerText = 'Clicou!'
+            area.style.background = 'red'
+        }
+
+        function entrar(){
+            area.innerText = 'Entrou!'
+        }
+
+        function sair(){
+            area.style.background = 'blueviolet'
+            area.innerText = 'Saiu!'
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+Aula 09 - Introdução ao DOM
+
+Respostas Aula 08:
+
+1) = (recebe); == (igual, comparação); === (igualdade restrita, mesmo conteúdo e tipo);
+2) Primeiro o && depois o ||
+3) media >= 18 ? 'Aprovado' : 'Reprovado';
+
+
+O que é DOM?
+- Document Object Model, conjunto de objetos dentro do navegador que da acesso aos componentes do site, permitindo manipular eles;
+
+Árvore DOM
+- Paternidade, hierarquia de partes do site;
+	Feito no MIRO
+
+Maneiras de selecionar os Elementos:
+
+- por Marca (tag)
+	.getElementsByTagName('p')
+
+- por ID
+	.getElementById()
+
+- por Nome
+	.getElementsByName()
+
+- por Classe
+	.getElementsByClassName()
+
+- por Seletor  ---> Método mais recente
+	.querySelector()
+	.querySelectorAll()
+	usamos a sintaxe do CSS dentro dos parênteses;
+

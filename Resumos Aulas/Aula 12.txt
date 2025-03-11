@@ -1,0 +1,66 @@
+Aula 12 - Condições 2
+
+Respostas Aula 11:
+
+1) Sei;
+2) if(condição){
+
+} else {
+
+}
+3)Simples tem apenas o if, compostas contam com else e/ou else if, caso tenham mais que duas possibilidades;
+
+
+
+*Bonus antes do resumo*
+
+Como pegar a hora exata?
+var agora = new Date()
+var hora = agora.getHours()
+
+
+
+Condições Aninhadas
+- É quando temos uma condição dentro de outra condição, um if dentro de um if;
+- Podemos usar o else if para aninhar poupando linhas de codigo!
+
+if(condição){                       if(condição){
+                                        if(condição){
+} else if {                                
+                                        } else {
+} else {
+                                        }
+}                                   } else {
+
+                                    }
+
+Condições Multiplas
+- Várias condições, funciona apenas com valores exatos, intervalos não caem muito bem aqui;
+
+switch(condição){
+    case valor1:
+    x
+    break
+
+    case valor2:
+    y
+    break
+
+    case valor3:
+    z
+    break
+
+    default:
+}
+
+- O break é obrigatório para o funcionamento inteiro do switch!
+
+
+
+
+
+
+
+
+
+

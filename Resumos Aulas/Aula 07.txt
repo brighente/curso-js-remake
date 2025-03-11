@@ -1,0 +1,29 @@
+Aula 07 - Operadores
+
+Respostas: 
+1) Usando -> var x = window.prompt('Qual o seu nome?');
+2) Usando -> var y = Number(window.prompt('Digite um numero: '));
+3) Usando -> window.alert(`Seu nome é: ${nome.toUpperCase()});
+4) Usando -> n1.toFixed(2).replace('.', ',');     ou 
+	     n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});
+
+Tipos de Operadores: 
+
+- Aritméticos:
+	-> + (adição) 
+	-> - (subtração) 
+	-> * (multiplicação) 
+	-> / (divisão) 
+	-> % (resto) 
+	-> ** (potencia)
+
+- Atribuição
+	-> += (mesma coisa que n = n + 4)
+	-> -= (mesma coisa que n = n - 4)
+	-> *= (mesma coisa que n = n * 4)
+	-> /= (mesma coisa que n = n / 4)
+	-> **= (mesma coisa que n = n ** 4)
+	-> %= (mesma coisa que n = n % 4)
+	
+	-> ++ (mesma coisa que n = n + 1)
+	-> -- (mesma coisa que n = n - 1)

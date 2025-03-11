@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(81, 81, 222);
+            color: white;
+            font: normal 18px arial;
+            
+        }
+        div{
+            border: 3px solid rgb(11, 11, 51);
+            border-radius: 10px;
+            /* display: inline; */
+            padding: 10px;
+            background-color: blue;
+            color: rgb(11, 11, 51);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando Estudos DOM</h1>
+    <p>Aqui sai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em Mim</div>
+
+    <script>
+        var corpo = document.body
+        var p1 = document.getElementsByTagName('p')[0] // 0 pois quero pegar somente o primeiro parágrafo
+        var p2 = document.getElementsByTagName('p')[1]
+        var d = document.getElementById('msg')
+        var d2 = document.querySelector('div#msg');
+
+        document.write(p1.innerText)
+        document.write(p2.innerHTML) // innerHTML traz as tags junto, não só o conteudo
+        d2.style.background = 'purple' // Usando QuerySelector
+        d.innerText = 'Estou Agurdando...'
+
+
+    </script>
+</body>
+</html>

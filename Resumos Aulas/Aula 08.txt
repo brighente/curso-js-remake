@@ -1,0 +1,50 @@
+Aula 08 - Operadores
+
+Tipos de Operadores: 
+
+- Relacionais
+
+	-> > (maior que)
+	-> < (menor que)
+	-> >= (maior ou igual)
+	-> <= (menor ou igual)
+	-> == (igual no sentido de comparação)
+	-> != (diferente)
+	-> === (testa o tipo da variável também)
+	-> !== (mesma ideia do ===, só que se é diferente ou não)
+
+
+- Lógicos
+
+	-> ! (negação) ---> !true = false  e  !false = true (não falso é igual a verdadeiro)
+	-> && (conjunção, 'e')
+
+		false && false = false
+		false && true  = false
+		true && false  = false
+		true && true   = true
+
+	-> || (disjunção, 'ou')
+		
+		false || false = false
+		false || true  = true
+		true || false  = true
+		true || true   = true
+
+
+- Ternários
+	
+	-> ? :
+	teste ? (o que acontece se for true) : ( o que acontece se for false);
+	media >= 7 ? "Aprovado" : "Reprovado";
+
+
+
+Ordem de Precedência
+
+() ** / e os demais
+> < <= e os demais
+!
+&&
+||
+?: (ternários são os ultimos)

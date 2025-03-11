@@ -1,0 +1,29 @@
+Aula 11 - Condições
+
+Respostas Aula 11:
+
+1) mouseenter, mouseout, click;
+2) É um bloco de comandos que acontecem em determinado momento, quando por exemplo uma ação é disparada;
+3) Number(document.getElementById('var').value);
+
+Condições
+- São 'desvios' do fluxo padrão do código;
+
+	if(condição){
+
+		true
+	
+	} else {
+
+		false
+
+ 	}
+
+- Usando apenas o if, sem o else, temos uma Condição Simples, onde não acontece nada caso a condição não seja verdadeira;
+
+	if(condição){
+
+		true
+
+	}
+
