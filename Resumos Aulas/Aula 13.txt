@@ -1,0 +1,25 @@
+Aula 13 - Repetições 1
+
+Respostas Aula 12:
+1)Crie uma variável pegando o body, e use var.style.background = 'blue';
+2)Selecione a div ou o espaço com uma variável, crie uma variável para a futura tag img (let img = createElement("img")), e depois
+  var.appendChild(img)
+
+
+Repetições
+- Estruturas de Repetições são um bloco de comando e códigos que são executados repetidademente até que uma condição se torne falsa, ou o numero estipulado de repetições se atinja;
+
+while(condição){
+
+    // Todos os comandos aqui serão repetidos até a condição se tornar falsa
+
+}
+
+Nesse método acima, ele primeiro testa, depois executa;
+Existe também um método onde primeiro executa, depois testa, o 'do while';
+
+do{
+
+  // Aqui ele vai executar os comandos
+
+} while(condição);

@@ -1,0 +1,58 @@
+Aula 15 - Variáveis Compostas
+
+* Conceito: *
+São chamados de métodos todos os comandos que terminam com ()
+Exemplos dessa aula: 
+    - .sort()
+    - .push()
+
+
+
+
+- Variáveis simples são variáveis que só conseguem armazenar um valor por vez;
+- Já variáveis compostas conseguem armazenar vários valores em uma mesma estrutura;
+
+- Variáveis compostas são os famosos arrays, ou vetores e são compostos por:
+    - Índice --> a posição dele, exemplo array(0), primeira posição
+    - Elemento --> é um par que agrupa: o valor dentro dele, o espaço na memória e o Índice
+    - Conteúdo --> o que está guardado em certo elemento, de certa posição
+
+- Ou seja, um vetor é uma variável que tem vários elementos, e cada elemento é composto pelo seu valor(conteudo) e por uma chave de identificação(indice)
+
+let num = [5, 8, 4]
+
+- Também tem como acrescentar valores, sem perder os que ja estão guardados:
+    num[3] = 6  --> isso quer dizer, guardar o valor 6, na posição 3, ou seja, na quarta chave;
+
+
+- E para adicionar, mas sem especificar em qual posição será guardado, existe outro método:
+    num.push(7)  --> isso quer dizer, guardar o valor 7, em qualquer posição, normalmente adicionando à ultima chave;
+
+
+- Com esses dois comandos, o vetor inicial ficaria assim:
+    num = [5, 8, 4, 6, 7]
+
+
+- Para saber o tamanho do array, basta usar:
+    num.length
+
+
+- Ainda tem como colocar todos os elementos em ordem crescente:
+    num.sort()
+    Assim o array ficaria: [4, 5, 6, 7, 8]
+
+
+Existe uma maneira simplificada de exibir cada elemento do vetor, sem usar o for comum:
+
+for (let pos in vetor){
+    console.log(`${vetor[pos]}`)
+}
+
+    - Isso é lido assim: Para cada posição (pos é uma variavel criada para isso) dentro(ou em) do vetor, faça oque ta dentro do bloco;
+
+Essa sintaxe só funciona para Arrays e Objetos!!
+
+
+Existe também um comando que localiza em qual chave(espaço) está guardado certo valor:
+    num.indexOf(7)  --> vai procurar em qual chave está guardado o valor 7;
+    num.indexOf(3)  --> Caso coloque um valor que não está guardado no vetor, ele retorna -1;

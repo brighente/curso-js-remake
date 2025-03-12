@@ -1,0 +1,18 @@
+Aula 14 - Repetições 2
+
+Respostas Aula 13
+1) Uso uma estrutura de repetição;
+2) Condição (if, caso aconteça);
+   Repetição (while, enquanto acontece);
+3) while testa depois executa, do while executa depois testa;
+
+Existe mais um tipo de repetição, o for, que é uma forma 'simplificada', agrupada do 'while'
+
+for(i=0; i < 5; i++){
+
+    // Executa tudo aqui dentro, nesse caso 5 vezes;
+
+}
+
+Ela inicia, criando uma variavel, faz o teste, executa o bloco, faz a adição e repete até a condição ser satisfeita;
+

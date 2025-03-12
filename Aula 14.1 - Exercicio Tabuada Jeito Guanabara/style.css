@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D0BDF4;
+    font: normal 15pt Verdana, Geneva, Tahoma, sans-serif;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    color: white;
+    padding: 15px;
+}
+
+.container {
+    width: 550px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.221);
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+#button {
+    width: 100px;
+    height: 25px;
+}
+
+#tabuada{
+    width: 200px;
+    resize: none;
+}
+
+footer p {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    padding: 15px;
+}
