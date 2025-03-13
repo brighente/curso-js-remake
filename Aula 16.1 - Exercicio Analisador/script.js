@@ -1,10 +1,10 @@
 let vet = []
 let res = document.getElementById('res')
+let lista = document.getElementById('lista')
 
 function adicionar(){
     
     let n = Number(document.getElementById('number').value)
-    let lista = document.getElementById('lista')
     let item = document.createElement("option")
 
     if(n <= 0 || n > 100){
