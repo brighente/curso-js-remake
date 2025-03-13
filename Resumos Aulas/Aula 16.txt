@@ -1,0 +1,29 @@
+Aula 16 - Funções
+
+Respotas Aula 15
+1)
+2) array.sort()
+3) Colocando o atributo onclick="clicar()" no button no HTML, e chamando ela no javaScript com function clicar(){}
+
+Funções são ações executadas assim que são chamadas ou em decorrência de algum evento;
+Elas podem receber parâmetros e retornar resultados;
+
+Uma função é constituida por:
+    - Uma chamada
+    - Um parâmetro
+    - Uma ou mais ações
+    - Um retorno(nem todas possuem retorno)
+
+        function nome(paramentro){
+            açao 1
+            açao 2
+            return
+        }
+
+        nome(5) --> chamada;
+
+
+- Podemos criar uma variável e guardar nela uma função
+
+- Conceito de Recursividade
+    É quando chamamos a função dentro dela mesma, exemplo está no ex004;
