@@ -1,0 +1,12 @@
+Introdução simples à Objetos em JavaScript
+
+- Objetos são arrays 'Melhorados', guardam mais de um valor nele, porém é possivel dar nomes às chaves, não sendo necessariamente 0, 1, 2, 3;
+
+- Se declaram dessa maneira:
+    let pessoa = {nome:'José', sexo:'M', peso:85.4, engordar(p){}}
+
+
+- A chave seria o que vem antes dos :, exemplo nome e armazenaria em nome, José;
+
+- É possivel guardar uma função dentro dele;
+

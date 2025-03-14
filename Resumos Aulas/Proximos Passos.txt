@@ -1,0 +1,27 @@
+Proximos Passos em JavaScript
+
+Estudar sobre Functions:
+    - Arrow Functions
+    - Callbacks
+    - Funções Anonimas
+    - IIFE's
+
+Estudar objetos em JavaScript:
+    - Programação orientada a objetos
+
+Estudar Modularização:
+    - Deixar códigos em arquivos separados
+    - Reutilizar códigos com JS
+
+Estudar RegEx:
+    - São expressões regulares
+    - Bom para validação de dados 
+
+Estudar JSON:
+    - Maneira de salvar dados localmente
+
+Estudar AJAX:
+    - Tecnologia de as páginas irem carregando conforme rolamos a tela pra baixo, não mais um avançar pagina
+
+Estudar NodeJS:
+    - Usar o servidor
