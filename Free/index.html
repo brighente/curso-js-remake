@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Misterioso</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Adivinhe o Número</h1>
+
+    <section id="intro-container">
+        <p>Este jogo consiste em tentar adivinhar o número secreto, através de dicas que indicam se o palpite foi maior ou menor que a resposta certa!</p>
+    </section>
+
+    <section id="game-container">
+        <input type="button" value="Iniciar Jogo">
+        <label for="number">Seu Palpite: </label>
+        <input type="number" name="number" id="number">
+
+        <input type="button" value="Verificar" onclick="verificar()">
+
+        <div id="infos">
+
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

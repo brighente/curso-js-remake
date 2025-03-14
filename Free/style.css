@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* #6EC6CA */
+
+body{
+    background-color: #B39DDB;
+    color: #40384f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#game-container{
+    background-color: white;
+    width: 600px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: auto;
+}
