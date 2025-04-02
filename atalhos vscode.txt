@@ -1,0 +1,15 @@
+Shift + Alt + Seta  --->  Copia a linha inteira para a linha debaixo;
+
+Alt + Seta  --->  Leva a linha para onde quiser
+
+Ctrl + Shift + K  --->  Apaga a linha toda
+
+Ctrl + D  --->  Seleciona a próxima palavra igual a selecionada, uma multi-seleção;
+
+Alt + click  --->  Multi-cursor, selecionar mais de uma palavra que não seja igual;
+
+Ctrl + K Z  ---> Entrar no modo ZEN, o código fica em tela cheia, bom para evitar distrações (para sair, só apertar ESC 2x);
+
+Ctrl + Espaço  --->  IntelliSense, O editor da sugestões de valores para colocar naquela linha;
+
+Ctrl + K Ctrl + S  --->  Abre a aba do VSCode com todos os atalhos
